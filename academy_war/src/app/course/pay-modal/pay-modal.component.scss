@@ -1,0 +1,55 @@
+@import "../../../styles.scss";
+
+.body {
+  background-color: #373739;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height: 96%;
+border-color: #357266;
+border: 10px solid;
+}
+
+section {
+  text-align: center;
+}
+.boton {
+    color: black;
+    text-align: center;
+    width: 300px;
+    border: 2px solid $light-golden;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .3s ease;
+    background-color: #357266;
+    font-size: 18px;
+    margin-top: 10%;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: bold;
+        background-color: rgba($light-golden, .5);
+    }
+  }
+  
+  .boton:hover {
+    background-color: $golden;
+    color: $black;
+  }
+  
+  .boton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px $gray;
+  }
+
+  
+  .title {
+      width: 33%;
+      color: $light-golden;
+      font-size: 48px;
+      font-weight: bolder;
+      margin-right: 20%;
+}
+  
